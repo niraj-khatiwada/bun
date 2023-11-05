@@ -2,6 +2,9 @@
   "name": "bun-brrr",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "server": "bun --watch ./index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
